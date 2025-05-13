@@ -1,0 +1,37 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+.logo img {
+	width: 100%;
+}
+header nav a {
+	display: inline-block;
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+section {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+section .left {
+	width: 30%;
+	height: auto;
+}
+section .right {
+	width: 70%;
+	text-align: left;
+}
+.button {
+	text-align: center;
+	color: white;
+	background-color: cornflowerblue;
+}
+footer {
+	text-align: center;
+}
