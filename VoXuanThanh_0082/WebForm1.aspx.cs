@@ -63,6 +63,7 @@ namespace VoXuanThanh_0082
 			catch (Exception ex)
 			{
 				Response.Write("Lỗi thống kê: " + ex.Message);
+				Server.Transfer("123.aspx);
 			}
 		}
 	}
